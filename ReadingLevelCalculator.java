@@ -118,9 +118,14 @@ public class ReadingLevelCalculator {
             System.out.println("\nThis text is at a 1st grade reading level."); 
         }
 
-        //if indexIntegerValue is equal to 2 or 3, it will print the following
-        else if(indexIntegerValue == 2 || indexIntegerValue == 3 ){
-            System.out.println("\nThis text is at a " + indexIntegerValue + "nd grade reading level.");
+        //if indexIntegerValue is equal to 2, it will print the following
+        else if(indexIntegerValue == 2){
+            System.out.println("\nThis text is at a 2nd grade reading level.");
+        }
+
+        //if indexIntegerValue is equal to 3, it will print the following
+        else if(indexIntegerValue == 3){
+            System.out.println("\nThis text is at a 3rd grade reading level.");
         }
 
         //if indextIntegerValue is greater than 3 and less than or equal to 12 it will print the following
